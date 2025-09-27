@@ -1,0 +1,12 @@
+# services:
+#   - type: web
+#     name: ekaant-tech
+#     env: node
+#     buildCommand: |
+#       npm install
+#       npm install --prefix employees
+#       npm run build --prefix employees
+#     startCommand: npm start
+#     envVars:
+#       - key: NODE_VERSION
+#         value: 18
